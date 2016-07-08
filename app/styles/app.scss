@@ -1,0 +1,90 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+.wrapper {
+  background-image: url('../images/berries-background.png');
+  background-size: cover;
+  height: 100vh;
+}
+
+#container {
+  padding: 0;
+}
+
+.login-header {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 4px 4px 2px black;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  text-align: center;
+  margin-top: 140px;
+}
+
+.login-label {
+  margin-right: 6px;
+  font-size: 18px;
+}
+
+#username,
+#password {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 200px;
+}
+
+.login-account {
+  margin-top: 10px;
+  font-size: 16px;
+  width: 160px;
+}
+
+.create-account {
+  margin-top: 20px;
+  font-size: 16px;
+  width: 160px;
+}
+
+.create-or {
+  display: block;
+  padding-top: 13px;
+  font-size: 18px;
+}
+
+.adjust-recipe {
+  border: 1px solid gray;
+  line-height: 40px;
+  label{
+    font-weight: normal;
+    font-style: italic;
+    margin: 0 5px;
+  }
+  input{
+    width: 40px;
+    height: 26px;
+  }
+}
+
+.adjust-button {
+  float: right;
+  margin-top: 3px;
+  margin-right: 6px;
+}
