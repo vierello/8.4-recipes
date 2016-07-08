@@ -120,22 +120,8 @@ var AppComponent = React.createClass({
     this.setState({'ratio': newServing})
   },
 
-  // this.setState({'ratio': newServing})
-
-  //   var ingredients = this.state.recipe.get('ingredients');
-  //   var ingredientQty = ingredients.map(function(ingredient, index){
-  //     ingredient.qty = (ingredient.qty * newServing).toFixed(2)
-  //     self.state.recipe.set({'servings': 4})
-  //     return ingredient;
-  //   });
-  //
-  //   this.state.recipe.unset('ingredients');
-  //   this.state.recipe.set({'ingredients': ingredientQty});
-  //
-  // },
-
   render: function(){
-    console.log(this.state.ratio);
+    //console.log(this.state.ratio);
     return (
       <div>
         <AdjustRecipe handleAdjustment={this.handleAdjustment} recipe={this.state.recipe} ratio={this.state.ratio}/>
