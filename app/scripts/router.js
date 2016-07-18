@@ -6,8 +6,8 @@ var $ = require('jquery');
 var LoginComponent = require('./components/login.jsx').LoginComponent;
 var AppComponent = require('./components/recipes.jsx').AppComponent;
 var SignUpComponent = require('./components/login.jsx').SignUpComponent;
-var CreateNewRecipeComponent = require('./components/recipes.jsx').CreateNewRecipeComponent;
-var RecipeDetailComponent = require('./components/recipes.jsx').RecipeDetailComponent;
+var CreateNewRecipeComponent = require('./components/newrecipe.jsx').CreateNewRecipeComponent;
+var RecipeDetailComponent = require('./components/recipedetail.jsx').RecipeDetailComponent;
 
 var Router = Backbone.Router.extend({
   routes: {

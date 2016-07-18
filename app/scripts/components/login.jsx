@@ -26,7 +26,7 @@ var LoginComponent = React.createClass({
       localStorage.setItem('username', username)
 
       loggedInUser.done(function(response){
-        console.log(username);
+        //console.log(username);
         self.props.router.navigate('recipes/', {trigger: true})
 
       }).fail(function(){

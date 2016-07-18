@@ -279,6 +279,7 @@ img {
 }
 
 .ingredient-form {
+  margin-bottom: 10px;
   input {
     margin-right: 10px;
   }
@@ -287,6 +288,23 @@ img {
   }
   .ingredient-input {
     height: 32px;
+  }
+  .delete-button {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 43px;
+  }
+}
+
+.step-form {
+  margin-bottom: 10px;
+  .step-input-row {
+    position: relative;
+  }
+  .delete-button {
+    position: absolute;
+    top: 22px;
+    margin-left: 50px;
   }
 }
 
@@ -300,7 +318,12 @@ img {
 }
 
 .save-recipe-button {
-  margin-bottom: 20px;
+  width: 200px;
+  font-size: 18px;
+}
+
+.save-button {
+  text-align: center;
 }
 
 .recipe-detail {
@@ -317,4 +340,19 @@ img {
 .recipe-detail-creator {
   text-align: center;
   margin-bottom: 6px;
+}
+
+.recipe-detail-serves {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.recipe-detail-ingredients {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.recipe-detail-steps {
+  font-size: 28px;
+  padding-bottom: 40px;
 }
