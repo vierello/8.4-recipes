@@ -1,2 +1,3 @@
-## 8 4 recipes
-# 8.4-recipes
+# Recipes
+
+### This application is a recipe book with a ingredient adjusting tool to make adjusting recipes easy.  
